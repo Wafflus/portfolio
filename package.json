@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "jest-styled-components": "^7.1.1"
   }
 }
