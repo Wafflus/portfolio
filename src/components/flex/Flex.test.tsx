@@ -1,5 +1,5 @@
 import "jest-styled-components";
-import { breakpoints, theme } from "../../styles";
+import { breakpoints, theme } from "styles";
 import { Flex } from ".";
 import { render } from "@testing-library/react";
 import { ThemeProvider } from "styled-components";

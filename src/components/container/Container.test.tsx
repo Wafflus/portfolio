@@ -1,7 +1,7 @@
 import "jest-styled-components";
 import { Container } from ".";
 import { render } from "@testing-library/react";
-import { theme } from "../../styles";
+import { theme } from "styles";
 import { ThemeProvider } from "styled-components";
 
 test('container renders', () => {

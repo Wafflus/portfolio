@@ -1,5 +1,5 @@
 import "jest-styled-components";
-import { breakpoints, theme } from "../../styles";
+import { breakpoints, theme } from "styles";
 import { Menu } from ".";
 import { MenuItem } from "components/menu-item";
 import { render } from "@testing-library/react";

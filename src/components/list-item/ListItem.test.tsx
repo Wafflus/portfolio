@@ -1,7 +1,7 @@
 import "jest-styled-components";
 import { ListItem } from ".";
 import { render } from "@testing-library/react";
-import { theme } from "../../styles";
+import { theme } from "styles";
 import { ThemeProvider } from "styled-components";
 
 test('list item renders', () => {
