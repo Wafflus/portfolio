@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tag renders 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFECB1;
+  border-radius: 8px;
+  color: #93855B;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  gap: 8px;
+  -webkit-letter-spacing: 0.1rem;
+  -moz-letter-spacing: 0.1rem;
+  -ms-letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
+  padding: 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: padding 0.5s;
+  transition: padding 0.5s;
+}
+
+.c0:hover {
+  padding: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<a
+  class="c0"
+  href="https://www.github.com/Wafflus"
+  target="_blank"
+>
+  Github
+</a>
+`;
