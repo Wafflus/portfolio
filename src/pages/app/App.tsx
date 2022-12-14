@@ -1,5 +1,6 @@
 import { Header } from 'modules/header';
 import { Hero } from 'modules/hero';
+import { Projects } from 'modules/projects';
 import { AppStyled } from './styles';
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
     <AppStyled>
       <Header />
       <Hero />
+      <main>
+        <Projects />
+      </main>
     </AppStyled>
   );
 }
