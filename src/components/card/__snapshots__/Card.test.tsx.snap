@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card renders 1`] = `
+.c0 {
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.c0:nth-child(odd) {
+  background-color: #FFFAE9;
+}
+
+.c0:hover {
+  outline: 3px solid #FFF0BF;
+}
+
+.c0:hover > div > img {
+  border: 3px solid #F9D564;
+  -webkit-transform: scale(102%);
+  -ms-transform: scale(102%);
+  transform: scale(102%);
+}
+
+.c5 {
+  color: #756A47;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.1rem;
+  -moz-letter-spacing: 0.1rem;
+  -ms-letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.c6 {
+  color: #93855B;
+  font-variant: small-caps;
+  -webkit-letter-spacing: 0.1rem;
+  -moz-letter-spacing: 0.1rem;
+  -ms-letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.c7 {
+  color: #93855B;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-letter-spacing: 0.1rem;
+  -moz-letter-spacing: 0.1rem;
+  -ms-letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 24px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+}
+
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  max-width: 100%;
+  width: 100%;
+}
+
+.c2 {
+  border-radius: 8px;
+  border: 3px solid transparent;
+  height: 100%;
+  max-height: 350px;
+  max-width: 500px;
+  -webkit-transition: -webkit-transform 0.5s,border 0.5s;
+  -webkit-transition: transform 0.5s,border 0.5s;
+  transition: transform 0.5s,border 0.5s;
+  width: 100%;
+}
+
+@media (min-width:992px) {
+  .c0:nth-child(even) > div {
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width:992px) {
+  .c5 {
+    font-size: 2rem;
+    text-align: start;
+  }
+}
+
+@media (min-width:992px) {
+  .c1 {
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 24px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .c3 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 16px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .c4 {
+    -webkit-align-items: start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 8px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .c8 {
+    -webkit-align-items: start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 16px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    max-width: 100%;
+  }
+}
+
+<article
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      alt="Image alternative text"
+      class="c2"
+      src="portfolio.png"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <h3
+          class="c5"
+        >
+          Card
+        </h3>
+        <h4
+          class="c6"
+        >
+          Tool 1, Tool 2
+        </h4>
+      </div>
+      <p
+        class="c7"
+      >
+        Card description
+      </p>
+      <div
+        class="c8"
+      />
+    </div>
+  </div>
+</article>
+`;

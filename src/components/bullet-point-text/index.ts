@@ -1,0 +1,1 @@
+export { BulletPointText } from './BulletPointText';

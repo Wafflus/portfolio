@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`title renders 1`] = `
+.c0 {
+  color: #93855B;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  font-weight: bold;
+  -webkit-letter-spacing: 0.1rem;
+  -moz-letter-spacing: 0.1rem;
+  -ms-letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  position: relative;
+  text-align: center;
+}
+
+.c2 {
+  border-bottom: 2px solid #93855B;
+  left: calc(50% - 150px);
+  position: absolute;
+  top: 50%;
+  width: 300px;
+  z-index: -10;
+}
+
+.c2::before,
+.c2::after {
+  background-color: #93855B;
+  border-radius: 50%;
+  bottom: -6px;
+  content: '';
+  height: 10px;
+  position: absolute;
+  width: 10px;
+}
+
+.c2::before {
+  left: -4px;
+}
+
+.c2::after {
+  right: -4px;
+}
+
+.c1 {
+  background-color: #FFF5D6;
+  padding: 0px 32px;
+}
+
+@media (min-width:992px) {
+  .c0 {
+    font-size: 3rem;
+    margin-bottom: 64px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width:992px) {
+  .c2 {
+    left: calc(50% - 200px);
+    width: 400px;
+  }
+}
+
+<h2
+  class="c0"
+>
+  <span
+    class="c1"
+  >
+    Title
+  </span>
+  <div
+    class="c2"
+    role="presentation"
+  />
+</h2>
+`;

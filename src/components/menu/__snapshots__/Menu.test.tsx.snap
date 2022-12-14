@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`menu renders 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 400px;
+  position: relative;
+  width: 100%;
+}
+
+.c1 {
+  background-color: #FFFAEC;
+  border-radius: 8px;
+  height: calc(100% + 16px);
+  left: -16px;
+  position: absolute;
+  top: -8px;
+  width: calc(100% + 32px);
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 48px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style-type: none;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  width: 100%;
+}
+
+.c4 {
+  color: #93855B;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: normal;
+  -webkit-letter-spacing: 0.1rem;
+  -moz-letter-spacing: 0.1rem;
+  -ms-letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: -webkit-transform 0.5s,color 0.5s,padding 0.5s;
+  -webkit-transition: transform 0.5s,color 0.5s,padding 0.5s;
+  transition: transform 0.5s,color 0.5s,padding 0.5s;
+}
+
+.c4:hover {
+  color: #756A47;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4:hover {
+  -webkit-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  transform: translateY(-4px);
+}
+
+.c3 {
+  list-style-type: none;
+  position: relative;
+}
+
+@media (min-width:992px) {
+  .c1 {
+    height: calc(100% + 32px);
+    top: -16px;
+  }
+}
+
+<nav
+  class="c0"
+>
+  <div
+    class="c1"
+    role="presentation"
+  />
+  <ul
+    class="c2"
+    role="list"
+  >
+    <li
+      class="c3"
+    >
+      <a
+        class="c4"
+        href="#one"
+      >
+        Menu One
+      </a>
+    </li>
+    <li
+      class="c3"
+    >
+      <a
+        class="c4"
+        href="#two"
+      >
+        Menu Two
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
