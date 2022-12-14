@@ -1,0 +1,1 @@
+export { SexyTitle } from './SexyTitle';

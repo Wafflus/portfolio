@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`social media icon renders 1`] = `
+.c1 {
+  border-radius: 50%;
+  cursor: pointer;
+  height: 64px;
+  outline: 0px solid #FFF0BF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: -webkit-transform 1s,outline 0.5s;
+  -webkit-transition: transform 1s,outline 0.5s;
+  transition: transform 1s,outline 0.5s;
+  width: 64px;
+}
+
+.c1:hover {
+  outline: 10px solid #FFF0BF;
+  position: relative;
+  -webkit-transform: translateY(-16px);
+  -ms-transform: translateY(-16px);
+  transform: translateY(-16px);
+}
+
+.c3 {
+  color: #756A47;
+  font-family: 'Outfit',sans-serif;
+  -webkit-letter-spacing: 10%;
+  -moz-letter-spacing: 10%;
+  -ms-letter-spacing: 10%;
+  letter-spacing: 10%;
+  opacity: 0;
+  text-align: center;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+<div
+  class="c0"
+>
+  <a
+    class="c1"
+    href="https://github.com/Wafflus"
+    target="_blank"
+  >
+    <img
+      alt="Alternative text."
+      class="c2"
+      size="64"
+      src="https://github.com/Wafflus"
+    />
+  </a>
+  <span
+    class="c3"
+  >
+    Github
+  </span>
+</div>
+`;

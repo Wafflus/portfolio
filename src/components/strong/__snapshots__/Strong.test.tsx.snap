@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`strong renders 1`] = `
+.c0 {
+  color: #D4AD31;
+  font-weight: 500;
+}
+
+<strong
+  class="c0"
+>
+  Strong Text
+</strong>
+`;
