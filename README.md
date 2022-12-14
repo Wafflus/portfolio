@@ -12,6 +12,6 @@ Deployed using [Firebase](https://firebase.google.com/).
 
 ## Links
 
-It can be seen live at [https://portfolio.wafflus.com](https://www.portfolio.wafflus.com).
+It can be seen live at [https://portfolio.wafflus.com](https://portfolio.wafflus.com).
 
 [Figma Link](https://www.figma.com/file/aByVnCimwVne1L1lKp13Yh/Websites?node-id=412%3A11&t=Qhkjp0bA1ky34xTc-1)
