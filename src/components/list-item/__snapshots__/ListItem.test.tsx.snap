@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`list item renders 1`] = `
+.c0 {
+  list-style-type: none;
+  position: relative;
+}
+
+<li
+  class="c0"
+>
+  <a>
+    List Item
+  </a>
+</li>
+`;

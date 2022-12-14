@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`container renders 1`] = `
+.c0 {
+  height: 100%;
+  max-width: 1440px;
+  padding: 16px 32px;
+  width: 100%;
+  z-index: 200;
+}
+
+<div
+  class="c0"
+>
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel dolorum eum eligendi dignissimos velit numquam?
+  </p>
+</div>
+`;
