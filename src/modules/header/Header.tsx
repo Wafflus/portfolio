@@ -5,7 +5,7 @@ import { IHeaderProps } from "./types";
 import { Menu } from "components/menu";
 import { MenuItem } from "components/menu-item";
 import { ProfilePicture } from "components/profile-picture";
-import profilePicture from 'assets/profile_picture.png';
+import profilePicture from 'assets/profile-picture.png';
 
 export function Header({ activeMenuItem, setActiveMenuItem }: IHeaderProps) {
     return (
