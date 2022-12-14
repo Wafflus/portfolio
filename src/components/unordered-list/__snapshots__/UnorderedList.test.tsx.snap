@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`unordered list renders 1`] = `
+.c1 {
+  list-style-type: none;
+  position: relative;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 48px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style-type: none;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  width: 100%;
+}
+
+<ul
+  class="c0"
+  role="list"
+>
+  <li
+    class="c1"
+  >
+    List Item One
+  </li>
+  <li
+    class="c1"
+  >
+    List Item Two
+  </li>
+</ul>
+`;
