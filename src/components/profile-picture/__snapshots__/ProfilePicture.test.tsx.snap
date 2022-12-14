@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`profile picture renders 1`] = `
+.c0 {
+  background-color: #F9D564;
+  border-radius: 50%;
+  height: 90px;
+  outline: 5px solid #FFF0BF;
+  -webkit-transition: -webkit-transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  transition: transform 0.5s;
+  width: 90px;
+  z-index: 20;
+}
+
+.c0:hover {
+  -webkit-transform: rotate(15deg) scale(110%);
+  -ms-transform: rotate(15deg) scale(110%);
+  transform: rotate(15deg) scale(110%);
+}
+
+<img
+  alt="Alternative text."
+  class="c0"
+  src="profile-picture.png"
+/>
+`;
