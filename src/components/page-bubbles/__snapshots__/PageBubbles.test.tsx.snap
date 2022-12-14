@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page bubbles renders 1`] = `
+.c0 {
+  opacity: 0;
+}
+
+.c0:nth-child(1),.c0:nth-child(2) {
+  bottom: -100%;
+  left: -100%;
+}
+
+.c0:nth-child(3),.c0:nth-child(4),
+.c0:nth-child(5) {
+  bottom: -100%;
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    background-color: #F9D564;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute;
+    -webkit-transition: opacity 0.5s,bottom 0.5s,left 0.5s;
+    transition: opacity 0.5s,bottom 0.5s,left 0.5s;
+  }
+
+  .c0:nth-child(1),.c0:nth-child(2) {
+    height: 293px;
+    width: 293px;
+  }
+
+  .c0:nth-child(3),.c0:nth-child(5) {
+    height: 330px;
+    width: 330px;
+  }
+
+  .c0:nth-child(4) {
+    height: 282px;
+    width: 282px;
+  }
+
+  .c0:nth-child(1) {
+    bottom: -30%;
+    left: -115px;
+    z-index: 10;
+  }
+
+  .c0:nth-child(2) {
+    bottom: -45%;
+    left: 90px;
+    z-index: 20;
+  }
+
+  .c0:nth-child(3) {
+    bottom: -70%;
+    left: calc(100% - 330px - 90px);
+    z-index: 10;
+  }
+
+  .c0:nth-child(4) {
+    bottom: -50%;
+    left: calc(100% - 282px + 50px);
+    z-index: 20;
+  }
+
+  .c0:nth-child(5) {
+    bottom: -25%;
+    left: calc(100% - 330px + 210px);
+    z-index: 10;
+  }
+}
+
+@media (min-width:1200px) {
+
+}
+
+<div
+  class="c0"
+  color="#F9D564"
+  role="presentation"
+/>
+`;
