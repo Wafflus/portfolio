@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const CardStyled = styled.article`
     border-radius: 8px;
@@ -46,7 +46,7 @@ export const ToolsStyled = styled.h4`
     color: ${({ theme }) => theme.data.text.defaultColor};
     font-variant: small-caps;
     letter-spacing: 0.1rem;
-    text-align: center;
+    text-align: start;
 `;
 
 export const DescriptionStyled = styled.p`
