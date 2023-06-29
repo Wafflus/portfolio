@@ -2,6 +2,7 @@ import api from 'assets/api.png';
 import dialogue from 'assets/dialogue.png';
 import fallreaction from 'assets/fallreaction.png';
 import genshin from 'assets/genshin.png';
+import jobboard from 'assets/jobboard.png';
 import namespaces from 'assets/namespaces.png';
 import portfolio from 'assets/portfolio.png';
 import special from 'assets/special.png';
@@ -34,6 +35,37 @@ interface IImage {
 }
 
 export const projects: IProjectsData[] = [
+	{
+        id: 'jobboard',
+        title: 'Online Job Board',
+        tools: [
+            { title: 'Java' },
+            { title: 'Spring' },
+            { title: 'Spring Boot' },
+            { title: 'Spring Security' },
+            { title: 'Hibernate' },
+            { title: 'JPA' },
+            { title: 'MySQL' },
+            { title: 'Lombok' },
+            { title: 'Maven' },
+            { title: 'Railway' },
+            { title: 'Planet Scale' },
+            { title: 'Typescript' },
+            { title: 'React' },
+            { title: 'Next.js' },
+            { title: 'Material UI' },
+            { title: 'Axios' },
+            { title: 'Cloudflare R2' },
+            { title: 'Day.js' },
+            { title: 'Nookies' },
+            { title: 'Country-State-City' }
+        ],
+        description: 'A full stack application with basic authentication using JWT, that allows seeing, posting and managing jobs for free. User images are stored using Cloudflare R2.',
+        image: { src: jobboard, alt: 'A thumbnail showing a company page in the website with the tech stack used for this project.' },
+        links: {
+            website: 'https://jb.wafflus.com'
+        }
+    },
     {
         id: 'genshinimpactmovementsystem',
         title: 'Genshin Impact Movement System',
