@@ -1,6 +1,5 @@
 import api from 'assets/api.png';
 import dialogue from 'assets/dialogue.png';
-import fallreaction from 'assets/fallreaction.png';
 import genshin from 'assets/genshin.png';
 import jobboard from 'assets/jobboard.png';
 import namespaces from 'assets/namespaces.png';
