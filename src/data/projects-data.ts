@@ -129,21 +129,6 @@ export const projects: IProjectsData[] = [
         }
     },
     {
-        id: 'fallreaction',
-        title: 'Fall Reaction',
-        tools: [
-            { title: 'Unity' },
-            { title: 'C#' },
-            { title: 'Google Play' }
-        ],
-        description: 'A game I\'ve made for Android. This game was made to learn how to deploy for the Google Play Store as well as how to use the Google Play Services, such as Leaderboards and Sign-In.',
-        image: { src: fallreaction, alt: 'A falling rectangle, diamond and circle with the title of my game.' },
-        links: {
-            googlePlay: 'https://play.google.com/store/apps/details?id=com.IndieWafflus.FallReactionGame&hl=en_US&gl=US',
-            youtube: 'https://www.youtube.com/watch?v=LkDSJUW_TzM'
-        }
-    },
-    {
         id: 'uitoolkit',
         title: 'UI Toolkit - The Basics',
         tools: [
