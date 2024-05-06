@@ -1,4 +1,5 @@
 import api from 'assets/api.png';
+import chatapp from 'assets/chatapp.png';
 import dialogue from 'assets/dialogue.png';
 import fallreaction from 'assets/fallreaction.png';
 import genshin from 'assets/genshin.png';
@@ -6,6 +7,7 @@ import jobboard from 'assets/jobboard.png';
 import namespaces from 'assets/namespaces.png';
 import portfolio from 'assets/portfolio.png';
 import special from 'assets/special.png';
+import todoapp from 'assets/todoapp.png';
 import uitoolkit from 'assets/uitoolkit.png';
 
 interface ILinksData {
@@ -66,6 +68,46 @@ export const projects: IProjectsData[] = [
             website: 'https://jb.wafflus.com'
         }
     },
+	{
+		id: 'todoapp',
+		title: 'To-Do App',
+		tools: [
+            { title: 'Java' },
+            { title: 'Spring Boot' },
+            { title: 'Spring MVC' },
+            { title: 'Spring Data' },
+            { title: 'Spring Security' },
+            { title: 'AWS' },
+            { title: 'Docker' },
+            { title: 'JPA / Hibernate' },
+            { title: 'JWT' },
+            { title: 'RDS MySQL' },
+            { title: 'Lombok' },
+            { title: 'Maven' },
+            { title: 'Typescript' },
+            { title: 'React' },
+            { title: 'JUnit / Mockito' }
+		],
+		description: 'A full stack application with basic authentication using JWT, that allows creating groups with toggle todos inside. Uses AWS. Link on resume only.',
+		image: { src: todoapp, alt: '' }
+	},
+	{
+		id: 'chatapp',
+		title: 'Chat App',
+		tools: [
+			{ title: 'Node.JS' },
+			{ title: 'Next.JS' },
+			{ title: 'React' },
+			{ title: 'Typescript' },
+			{ title: 'Prisma' },
+			{ title: 'Clerk' },
+			{ title: 'LiveKit' },
+			{ title: 'Socket.io' },
+			{ title: 'UploadThing' },
+		],
+		description: 'A full stack application with authentication using Clerk, that allows chatting with others via text, audio or video channels. Link on resume only.',
+		image: { src: chatapp, alt: '' }
+	},
     {
         id: 'genshinimpactmovementsystem',
         title: 'Genshin Impact Movement System',
